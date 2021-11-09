@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+    column-gap: .5em;
+}
+
+.lista{
+    display: flex;
+    gap: 1em;
+    list-style-type: none;
+    
+}
+
+.lista li::before{
+    content: "❤";
+}
+
+.lista li{
+    display: flex;
+}
